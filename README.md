@@ -1,2 +1,2 @@
 # News_App
-News App, idea to be implemented
+    *News App, idea to be implemented
