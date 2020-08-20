@@ -4,7 +4,7 @@
     
     ###### Languages/Frameworks used 
     
-     * React
+     *React
      * JS
      * CSS
     
