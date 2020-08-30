@@ -8,7 +8,8 @@ const NewsCard = ({article: {description, publishedAt, source, title, url, urlTo
     return (
         <Card>
             <CardActionArea>
-                <CardMedia className={classes.media}image ={urlToImage || 'https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'}/>
+                <CardMedia className={classes.media || classes.card || classes.fullHeightCard || classes.activeCard || classes.grid || classes.details || classes.title || classes.cardActions}
+                image ={urlToImage || 'https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'}/>
                 <div>
                     <Typography variant= "body2" color="textSecondary" component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
                     <Typography variant= "body2" color="textSecondary" component="h2">{source.name}</Typography>
